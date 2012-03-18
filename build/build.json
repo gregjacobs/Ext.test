@@ -1,6 +1,6 @@
 {
-	projectName: "Ext-Test Harness",
-	licenseText: "",
+	projectName: "Ext.Test Harness",
+	licenseText: "Ext.Test\nGPL Licensed (unfortunately...)\n\nhttps://github.com/gregjacobs/Ext.test",
 	pkgs: [
 		{
 			name: "JS",

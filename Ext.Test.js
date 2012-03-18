@@ -1,5 +1,8 @@
 /*!
+ * Ext.Test
+ * GPL Licensed (unfortunately...)
  * 
+ * https://github.com/gregjacobs/Ext.test
  */
 // Current ExtJs Unit Test are based on YUI 3.1.1
 // Thanks to Niko for this
