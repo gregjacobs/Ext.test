@@ -17,7 +17,7 @@ Ext.test.TestCase = Ext.extend(Y.Test.Case, {
     constructor: function(config) {
         Ext.apply(this, config);
         Ext.test.TestCase.superclass.constructor.apply(this, arguments);
-        this.testSession = this.testSession || Ext.test.session;     
+        this.testSession = this.testSession || Ext.test.Session;     
         if (!this.parentSuite) {
             this.testSession.registerCase(this);
         }

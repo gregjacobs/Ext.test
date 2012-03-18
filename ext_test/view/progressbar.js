@@ -28,7 +28,7 @@ Ext.test.view.ProgressBar = Ext.extend(Ext.ProgressBar,{
     },
     // update progress bar after each test suite run
     onTestSuiteComplete: function() {
-        var count = Ext.test.session.getTestCaseCount();
+        var count = Ext.test.Session.getTestCaseCount();
         var c = this.testCaseCount / count;
         this.updateProgress(c, Math.round(100 * c) + '% completed...')
     },

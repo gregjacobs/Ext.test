@@ -1,0 +1,9 @@
+This is my personal rendition of the Ext.Test harness created by [yhwh](https://github.com/yhwh) (Nicolas Ferrero), which displays results data from unit/integration tests created with [YUI 3 Test](http://yuilibrary.com/yui/docs/test/). The original test harness is at: [https://github.com/yhwh/Ext.test](https://github.com/yhwh/Ext.test)
+
+I've changed a few things from the original, including showing each individual test in the harness (whereas the original only showed suites and test cases, not the individual tests), and I also added a test runner implementation for [PhantomJS](http://www.phantomjs.org/) to run tests from the command line. 
+
+However, I changed some other things in the harness which broke the original Ext 3.2.x test cases, and the Ext 3.2.x test cases were the original reason for creating the original test harness in the first place. So because of this, I decided not to make a pull request, and just continue using my fork for my own tests.
+
+You are more than welcome to use this harness though. The easiest thing to do to get started would be to copy testHarness-cdn.html into a directory (which loads ExtJS and YUI 3 Test through CDN urls), and copy the Ext.Test.min.js and Ext.Test.min.css files into that same directory. Then modify the testHarness-cdn.html file to add your code under test, and your tests themselves. For some examples on writing tests themselves, check out my [Class.js](https://github.com/gregjacobs/Class.js) and [Kevlar.js](https://github.com/gregjacobs/Kevlar.js) projects, in their tests/ directories. You can also check out the tests in this project, but these were not written by me, and may or may not give a good idea on how to write tests using YUI 3 with this harness.
+
+Note however that the harness is GPL licensed due to [ExtJS's](http://www.sencha.com) GPL license.

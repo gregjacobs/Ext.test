@@ -140,4 +140,4 @@ Ext.test.Session = Ext.extend(Ext.util.Observable, {
         return this.masterSuite;
     }
 });
-Ext.test.session = new Ext.test.Session();
+Ext.test.Session = new Ext.test.Session();

@@ -11,7 +11,7 @@ Ext.test.Runner = Ext.extend(Ext.util.Observable, {
 	 * @cfg {Ext.test.Session} testSession (defaults to Ext.test.session) The 
 	 * default instanciated Ext.test.Session used by this Ext.test.runner.
 	 */
-    testSession: Ext.test.session,
+    testSession: Ext.test.Session,
     constructor: function() {
         Ext.test.Runner.superclass.constructor.apply(this, arguments);
 		    this.addEvents(

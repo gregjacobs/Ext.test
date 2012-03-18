@@ -27,7 +27,7 @@ Ext.test.TestSuite = Ext.extend(Y.Test.Suite, {
     constructor: function(config) {
         Ext.apply(this, config);
         Ext.test.TestSuite.superclass.constructor.apply(this, arguments);
-        this.testSession = this.testSession || Ext.test.session;  
+        this.testSession = this.testSession || Ext.test.Session;  
         if (!this.parentSuite && !this.disableRegister) {
             this.testSession.registerSuite(this);
         }

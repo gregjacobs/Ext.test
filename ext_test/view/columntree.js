@@ -22,7 +22,7 @@ Ext.test.view.ColumnTree = Ext.extend(Ext.tree.TreePanel, {
     borderWidth : Ext.isBorderBox ? 0 : 2, // the combined left/right border for each cell
     cls : 'x-column-tree',
     initComponent: function() {
-        this.testSession = this.testSession || Ext.test.session;  
+        this.testSession = this.testSession || Ext.test.Session;  
         this.createRootNode();
         this.configureColumns();
         this.monitorTestRunner();

@@ -1,0 +1,33 @@
+{
+	projectName: "Ext-Test Harness",
+	licenseText: "",
+	pkgs: [
+		{
+			name: "JS",
+			filename: "../Ext.Test.js",
+			includes: [				
+				{ file: "../src/yuitest_hooks.js" },
+				{ file: "../src/namespace.js" },
+				{ file: "../src/testsuite.js" },
+				{ file: "../src/testcase.js" },
+				{ file: "../src/test.js" }, 
+				{ file: "../src/session.js" },
+				{ file: "../src/runner.js" },
+				{ file: "../src/view/namespace.js" },
+				{ file: "../src/view/logger.js" },
+				{ file: "../src/view/columntree.js" },
+				{ file: "../src/view/progressbar.js" },
+				{ file: "../src/view/startbutton.js" },
+				{ file: "../src/view/uiprovider.js" }				
+			]
+		},
+		
+		{
+			name: "CSS",
+			filename: "../Ext.Test.css",
+			includes: [
+				{ file: "../src/default.css" }
+			]
+		}
+	]
+}

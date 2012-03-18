@@ -1,0 +1,21 @@
+{
+	projectName: "YUI 3.4.1 Test",
+	licenseText: "",
+	pkgs: [
+		{
+			name: "JS",
+			filename: "yui-3.4.1-test.js",
+			includes: [
+				{ file: "yui-base/yui-base.js" },
+				{ file: "oop/oop.js" },
+				{ file: "event-custom-base/event-custom-base.js" },
+				{ file: "event-base/event-base.js" },
+				{ file: "event-simulate/event-simulate.js" },
+				{ file: "event-custom-complex/event-custom-complex.js" },
+				{ file: "substitute/substitute.js" },
+				{ file: "json-stringify/json-stringify.js" },
+				{ file: "test/test.js" }
+			]
+		}
+	]
+}
